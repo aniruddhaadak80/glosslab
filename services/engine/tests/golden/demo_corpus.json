@@ -1,0 +1,1104 @@
+{
+  "corpusHash": "a515719cdaee0874",
+  "language": "kavrin-demo",
+  "ok": true,
+  "plan": {
+    "assignments": [
+      {
+        "day": "2026-03-02",
+        "endMinute": 565,
+        "minutes": 25,
+        "nodeId": "t16:unsegmentable",
+        "reviewerId": "r-anne",
+        "startMinute": 540
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 565,
+        "minutes": 25,
+        "nodeId": "t19:unsegmentable",
+        "reviewerId": "r-bo",
+        "startMinute": 540
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 580,
+        "minutes": 15,
+        "nodeId": "t08:feature_conflict",
+        "reviewerId": "r-anne",
+        "startMinute": 565
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 573,
+        "minutes": 8,
+        "nodeId": "t09:ambiguous",
+        "reviewerId": "r-bo",
+        "startMinute": 565
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 581,
+        "minutes": 8,
+        "nodeId": "t12:ambiguous",
+        "reviewerId": "r-bo",
+        "startMinute": 573
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 588,
+        "minutes": 8,
+        "nodeId": "t17:ambiguous",
+        "reviewerId": "r-anne",
+        "startMinute": 580
+      },
+      {
+        "day": "2026-03-02",
+        "endMinute": 589,
+        "minutes": 8,
+        "nodeId": "t20:ambiguous",
+        "reviewerId": "r-bo",
+        "startMinute": 581
+      }
+    ],
+    "certificate": {
+      "peakDay": "2026-03-02",
+      "peakDayCapacity": 240,
+      "peakDayLoadMinutes": 97,
+      "residualByDay": {
+        "2026-03-02": 143,
+        "2026-03-03": 240,
+        "2026-03-04": 240,
+        "2026-03-05": 240,
+        "2026-03-06": 180
+      },
+      "scheduledMinutes": 97,
+      "totalEffortMinutes": 97,
+      "unscheduledCount": 0,
+      "utilisation": 0.080833,
+      "verified": true,
+      "violations": [],
+      "windowMinutes": 1200
+    },
+    "mode": "best_effort",
+    "ok": true,
+    "reason": null,
+    "unscheduled": [],
+    "witness": {}
+  },
+  "reviewNodes": [
+    {
+      "deadline": "2026-03-02",
+      "detail": "incompatible at case: dat != gen",
+      "effortMinutes": 15,
+      "id": "t08:feature_conflict",
+      "kind": "feature_conflict",
+      "priority": 90,
+      "requiredSkill": "morphology",
+      "token": "tarkas"
+    },
+    {
+      "deadline": "2026-03-04",
+      "detail": "another reading scores within the declared margin",
+      "effortMinutes": 8,
+      "id": "t09:ambiguous",
+      "kind": "ambiguous",
+      "priority": 60,
+      "requiredSkill": "morphology",
+      "token": "sakm"
+    },
+    {
+      "deadline": "2026-03-04",
+      "detail": "another reading scores within the declared margin",
+      "effortMinutes": 8,
+      "id": "t12:ambiguous",
+      "kind": "ambiguous",
+      "priority": 60,
+      "requiredSkill": "morphology",
+      "token": "neshm"
+    },
+    {
+      "deadline": "2026-03-02",
+      "detail": "no path through the lexicon covers this form",
+      "effortMinutes": 25,
+      "id": "t16:unsegmentable",
+      "kind": "unsegmentable",
+      "priority": 100,
+      "requiredSkill": "morphology",
+      "token": "xkavri"
+    },
+    {
+      "deadline": "2026-03-04",
+      "detail": "another reading scores within the declared margin",
+      "effortMinutes": 8,
+      "id": "t17:ambiguous",
+      "kind": "ambiguous",
+      "priority": 60,
+      "requiredSkill": "morphology",
+      "token": "praneshm"
+    },
+    {
+      "deadline": "2026-03-02",
+      "detail": "no path through the lexicon covers this form",
+      "effortMinutes": 25,
+      "id": "t19:unsegmentable",
+      "kind": "unsegmentable",
+      "priority": 100,
+      "requiredSkill": "morphology",
+      "token": "pranakav"
+    },
+    {
+      "deadline": "2026-03-04",
+      "detail": "another reading scores within the declared margin",
+      "effortMinutes": 8,
+      "id": "t20:ambiguous",
+      "kind": "ambiguous",
+      "priority": 60,
+      "requiredSkill": "morphology",
+      "token": "sakmta"
+    }
+  ],
+  "stats": {
+    "ambiguous": 4,
+    "morphemes": 43,
+    "reviewNodes": 7,
+    "scheduled": 7,
+    "segmented": 21,
+    "tokens": 23,
+    "unscheduled": 0,
+    "unsegmentable": 2,
+    "withGap": 0
+  },
+  "tokens": [
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "kav",
+      "gapCount": 0,
+      "gloss": "person",
+      "id": "t01",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "person",
+          "known": true,
+          "lexemeId": "kav",
+          "morph": "kav",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-01",
+      "reason": null,
+      "score": 3.0
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "kavm",
+      "gapCount": 0,
+      "gloss": "people",
+      "id": "t02",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "person",
+          "known": true,
+          "lexemeId": "kav",
+          "morph": "kav",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 4,
+          "features": {
+            "number": "pl"
+          },
+          "gloss": "PL",
+          "known": true,
+          "lexemeId": "suf-pl",
+          "morph": "m",
+          "start": 3,
+          "type": "suffix",
+          "weight": 1.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-01",
+      "reason": null,
+      "score": 4.0
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "nakav",
+      "gapCount": 0,
+      "gloss": "not a person",
+      "id": "t03",
+      "morphemes": [
+        {
+          "end": 2,
+          "features": {
+            "polarity": "neg"
+          },
+          "gloss": "NEG",
+          "known": true,
+          "lexemeId": "pre-neg",
+          "morph": "na",
+          "start": 0,
+          "type": "prefix",
+          "weight": 0.7
+        },
+        {
+          "end": 5,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "person",
+          "known": true,
+          "lexemeId": "kav",
+          "morph": "kav",
+          "start": 2,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-02",
+      "reason": null,
+      "score": 3.7
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "prakavm",
+      "gapCount": 0,
+      "gloss": "saw the people",
+      "id": "t04",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "aspect": "pfv"
+          },
+          "gloss": "PFV",
+          "known": true,
+          "lexemeId": "pre-pfv",
+          "morph": "pra",
+          "start": 0,
+          "type": "prefix",
+          "weight": 0.7
+        },
+        {
+          "end": 6,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "person",
+          "known": true,
+          "lexemeId": "kav",
+          "morph": "kav",
+          "start": 3,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 7,
+          "features": {
+            "number": "pl"
+          },
+          "gloss": "PL",
+          "known": true,
+          "lexemeId": "suf-pl",
+          "morph": "m",
+          "start": 6,
+          "type": "suffix",
+          "weight": 1.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-02",
+      "reason": null,
+      "score": 4.7
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "lumta",
+      "gapCount": 0,
+      "gloss": "was a house",
+      "id": "t05",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "house",
+          "known": true,
+          "lexemeId": "lum",
+          "morph": "lum",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "tense": "pst"
+          },
+          "gloss": "PST",
+          "known": true,
+          "lexemeId": "suf-pst",
+          "morph": "ta",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-03",
+      "reason": null,
+      "score": 3.9
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "lumkake",
+      "gapCount": 0,
+      "gloss": "to the house too",
+      "id": "t06",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "house",
+          "known": true,
+          "lexemeId": "lum",
+          "morph": "lum",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        },
+        {
+          "end": 7,
+          "features": {
+            "discourse": "also"
+          },
+          "gloss": "ALSO",
+          "known": true,
+          "lexemeId": "cl-also",
+          "morph": "ke",
+          "start": 5,
+          "type": "clitic",
+          "weight": 0.3
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-03",
+      "reason": null,
+      "score": 4.2
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "tarka",
+      "gapCount": 0,
+      "gloss": "road",
+      "id": "t07",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "water",
+          "known": true,
+          "lexemeId": "tar",
+          "morph": "tar",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-04",
+      "reason": null,
+      "score": 3.9
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": "incompatible at case: dat != gen",
+      "form": "tarkas",
+      "gapCount": 0,
+      "gloss": "of the road",
+      "id": "t08",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "water",
+          "known": true,
+          "lexemeId": "tar",
+          "morph": "tar",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        },
+        {
+          "end": 6,
+          "features": {
+            "case": "gen"
+          },
+          "gloss": "GEN",
+          "known": true,
+          "lexemeId": "suf-gen",
+          "morph": "s",
+          "start": 5,
+          "type": "suffix",
+          "weight": 0.8
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-04",
+      "reason": null,
+      "score": 4.7
+    },
+    {
+      "alternates": [
+        {
+          "affixCount": 1,
+          "gapCount": 0,
+          "morphemes": ["sak", "m"],
+          "score": 4.0
+        }
+      ],
+      "ambiguous": true,
+      "featureIssue": null,
+      "form": "sakm",
+      "gapCount": 0,
+      "gloss": "ritual",
+      "id": "t09",
+      "morphemes": [
+        {
+          "end": 4,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "ritual",
+          "known": true,
+          "lexemeId": "sakm",
+          "morph": "sakm",
+          "start": 0,
+          "type": "stem",
+          "weight": 4.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-05",
+      "reason": null,
+      "score": 4.0
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "sakta",
+      "gapCount": 0,
+      "gloss": "saw",
+      "id": "t10",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "verb"
+          },
+          "gloss": "see",
+          "known": true,
+          "lexemeId": "sak",
+          "morph": "sak",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "tense": "pst"
+          },
+          "gloss": "PST",
+          "known": true,
+          "lexemeId": "suf-pst",
+          "morph": "ta",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-05",
+      "reason": null,
+      "score": 3.9
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "nesh",
+      "gapCount": 0,
+      "gloss": "child",
+      "id": "t11",
+      "morphemes": [
+        {
+          "end": 4,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "child",
+          "known": true,
+          "lexemeId": "nesh",
+          "morph": "nesh",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-06",
+      "reason": null,
+      "score": 3.0
+    },
+    {
+      "alternates": [
+        {
+          "affixCount": 0,
+          "gapCount": 0,
+          "morphemes": ["neshm"],
+          "score": 3.9
+        }
+      ],
+      "ambiguous": true,
+      "featureIssue": null,
+      "form": "neshm",
+      "gapCount": 0,
+      "gloss": "school",
+      "id": "t12",
+      "morphemes": [
+        {
+          "end": 4,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "child",
+          "known": true,
+          "lexemeId": "nesh",
+          "morph": "nesh",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "number": "pl"
+          },
+          "gloss": "PL",
+          "known": true,
+          "lexemeId": "suf-pl",
+          "morph": "m",
+          "start": 4,
+          "type": "suffix",
+          "weight": 1.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-06",
+      "reason": null,
+      "score": 4.0
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "tar",
+      "gapCount": 0,
+      "gloss": "water",
+      "id": "t13",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "water",
+          "known": true,
+          "lexemeId": "tar",
+          "morph": "tar",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-07",
+      "reason": null,
+      "score": 3.0
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "natar",
+      "gapCount": 0,
+      "gloss": "without water",
+      "id": "t14",
+      "morphemes": [
+        {
+          "end": 2,
+          "features": {
+            "polarity": "neg"
+          },
+          "gloss": "NEG",
+          "known": true,
+          "lexemeId": "pre-neg",
+          "morph": "na",
+          "start": 0,
+          "type": "prefix",
+          "weight": 0.7
+        },
+        {
+          "end": 5,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "water",
+          "known": true,
+          "lexemeId": "tar",
+          "morph": "tar",
+          "start": 2,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-07",
+      "reason": null,
+      "score": 3.7
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "lumkatar",
+      "gapCount": 0,
+      "gloss": "house, water nearby",
+      "id": "t15",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "house",
+          "known": true,
+          "lexemeId": "lum",
+          "morph": "lum",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        },
+        {
+          "end": 8,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "water",
+          "known": true,
+          "lexemeId": "tar",
+          "morph": "tar",
+          "start": 5,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-08",
+      "reason": null,
+      "score": 6.9
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "xkavri",
+      "gapCount": 0,
+      "gloss": "unattested form",
+      "id": "t16",
+      "morphemes": [],
+      "ok": false,
+      "provenance": "elicitation-08",
+      "reason": "unsegmentable",
+      "score": 0.0
+    },
+    {
+      "alternates": [
+        {
+          "affixCount": 1,
+          "gapCount": 0,
+          "morphemes": ["pra", "neshm"],
+          "score": 4.6
+        }
+      ],
+      "ambiguous": true,
+      "featureIssue": null,
+      "form": "praneshm",
+      "gapCount": 0,
+      "gloss": "saw the school",
+      "id": "t17",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "aspect": "pfv"
+          },
+          "gloss": "PFV",
+          "known": true,
+          "lexemeId": "pre-pfv",
+          "morph": "pra",
+          "start": 0,
+          "type": "prefix",
+          "weight": 0.7
+        },
+        {
+          "end": 7,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "child",
+          "known": true,
+          "lexemeId": "nesh",
+          "morph": "nesh",
+          "start": 3,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 8,
+          "features": {
+            "number": "pl"
+          },
+          "gloss": "PL",
+          "known": true,
+          "lexemeId": "suf-pl",
+          "morph": "m",
+          "start": 7,
+          "type": "suffix",
+          "weight": 1.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-09",
+      "reason": null,
+      "score": 4.7
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "ke",
+      "gapCount": 0,
+      "gloss": "also",
+      "id": "t18",
+      "morphemes": [
+        {
+          "end": 2,
+          "features": {
+            "discourse": "also"
+          },
+          "gloss": "ALSO",
+          "known": true,
+          "lexemeId": "cl-also",
+          "morph": "ke",
+          "start": 0,
+          "type": "clitic",
+          "weight": 0.3
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-09",
+      "reason": null,
+      "score": 0.3
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "pranakav",
+      "gapCount": 0,
+      "gloss": "double prefix (rejected by grammar)",
+      "id": "t19",
+      "morphemes": [],
+      "ok": false,
+      "provenance": "elicitation-10",
+      "reason": "unsegmentable",
+      "score": 0.0
+    },
+    {
+      "alternates": [
+        {
+          "affixCount": 2,
+          "gapCount": 0,
+          "morphemes": ["sak", "m", "ta"],
+          "score": 4.9
+        }
+      ],
+      "ambiguous": true,
+      "featureIssue": null,
+      "form": "sakmta",
+      "gapCount": 0,
+      "gloss": "ritual, past",
+      "id": "t20",
+      "morphemes": [
+        {
+          "end": 4,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "ritual",
+          "known": true,
+          "lexemeId": "sakm",
+          "morph": "sakm",
+          "start": 0,
+          "type": "stem",
+          "weight": 4.0
+        },
+        {
+          "end": 6,
+          "features": {
+            "tense": "pst"
+          },
+          "gloss": "PST",
+          "known": true,
+          "lexemeId": "suf-pst",
+          "morph": "ta",
+          "start": 4,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-10",
+      "reason": null,
+      "score": 4.9
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "pralum",
+      "gapCount": 0,
+      "gloss": "completed house",
+      "id": "t21",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "aspect": "pfv"
+          },
+          "gloss": "PFV",
+          "known": true,
+          "lexemeId": "pre-pfv",
+          "morph": "pra",
+          "start": 0,
+          "type": "prefix",
+          "weight": 0.7
+        },
+        {
+          "end": 6,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "house",
+          "known": true,
+          "lexemeId": "lum",
+          "morph": "lum",
+          "start": 3,
+          "type": "stem",
+          "weight": 3.0
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-11",
+      "reason": null,
+      "score": 3.7
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "lumtaka",
+      "gapCount": 0,
+      "gloss": "house, past, to",
+      "id": "t22",
+      "morphemes": [
+        {
+          "end": 3,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "house",
+          "known": true,
+          "lexemeId": "lum",
+          "morph": "lum",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 5,
+          "features": {
+            "tense": "pst"
+          },
+          "gloss": "PST",
+          "known": true,
+          "lexemeId": "suf-pst",
+          "morph": "ta",
+          "start": 3,
+          "type": "suffix",
+          "weight": 0.9
+        },
+        {
+          "end": 7,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 5,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-11",
+      "reason": null,
+      "score": 4.8
+    },
+    {
+      "alternates": [],
+      "ambiguous": false,
+      "featureIssue": null,
+      "form": "neshka",
+      "gapCount": 0,
+      "gloss": "to the child",
+      "id": "t23",
+      "morphemes": [
+        {
+          "end": 4,
+          "features": {
+            "kind": "noun"
+          },
+          "gloss": "child",
+          "known": true,
+          "lexemeId": "nesh",
+          "morph": "nesh",
+          "start": 0,
+          "type": "stem",
+          "weight": 3.0
+        },
+        {
+          "end": 6,
+          "features": {
+            "case": "dat"
+          },
+          "gloss": "DAT",
+          "known": true,
+          "lexemeId": "suf-dat",
+          "morph": "ka",
+          "start": 4,
+          "type": "suffix",
+          "weight": 0.9
+        }
+      ],
+      "ok": true,
+      "provenance": "elicitation-12",
+      "reason": null,
+      "score": 3.9
+    }
+  ]
+}

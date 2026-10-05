@@ -1,0 +1,116 @@
+/*
+ * The only place in apps/web where a colour literal may appear.
+ *
+ * Palette: slate + amber. A linguist's gloss is ink on a slate ground, and the amber is the
+ * annotation colour — reserved for the one thing on screen that needs a decision made about
+ * it. Density is compact because this is a workbench, and the radius is sharp because a
+ * rounded card would read as friendly rather than precise.
+ */
+
+:root {
+  color-scheme: light dark;
+
+  /* slate — the ground */
+  --bg: #f4f6f8;
+  --bg-raised: #ffffff;
+  --bg-sunken: #e8ecef;
+  --bg-inset: #dfe5ea;
+  --border: #c3ccd4;
+  --border-strong: #9aa7b2;
+
+  /* ink */
+  --fg: #16202a;
+  --fg-muted: #4d5b68;
+  --fg-faint: #78879a;
+
+  /* amber — annotation only: the decision on screen */
+  --accent: #a86a12;
+  --accent-soft: #f0d9b0;
+  --accent-fg: #ffffff;
+
+  /* semantic */
+  --ok: #2f6b40;
+  --warn: #9a6a06;
+  --danger: #a03028;
+  --info: #2b5f8f;
+
+  /* typography: Geist for prose, Geist Mono for anything aligning in columns */
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* a compact scale: 4px base, line-height tight enough to hold many gloss rows */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.875rem;
+  --text-lg: 1rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  --line-tight: 1.15;
+  --line-base: 1.45;
+
+  --radius-sm: 0px;
+  --radius-md: 2px;
+
+  --shadow-panel: 0 1px 0 0 var(--border);
+
+  --focus-ring: var(--accent);
+  --focus-width: 2px;
+
+  --motion-fast: 90ms;
+  --motion-base: 160ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --bg: #0e141a;
+  --bg-raised: #151d25;
+  --bg-sunken: #0a1015;
+  --bg-inset: #1d2731;
+  --border: #2a3641;
+  --border-strong: #3d4c5a;
+
+  --fg: #e6ecf2;
+  --fg-muted: #a3b1be;
+  --fg-faint: #6f7f8d;
+
+  --accent: #e0a13a;
+  --accent-soft: #4a3517;
+  --accent-fg: #0e141a;
+
+  --ok: #6fbf8a;
+  --warn: #d9a441;
+  --danger: #e8837a;
+  --info: #7fb3e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0e141a;
+    --bg-raised: #151d25;
+    --bg-sunken: #0a1015;
+    --bg-inset: #1d2731;
+    --border: #2a3641;
+    --border-strong: #3d4c5a;
+
+    --fg: #e6ecf2;
+    --fg-muted: #a3b1be;
+    --fg-faint: #6f7f8d;
+
+    --accent: #e0a13a;
+    --accent-soft: #4a3517;
+    --accent-fg: #0e141a;
+
+    --ok: #6fbf8a;
+    --warn: #d9a441;
+    --danger: #e8837a;
+    --info: #7fb3e0;
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "language": "kavrin-demo",
+  "label": "Kavrin (constructed demo language — synthetic data, not a documented variety)",
+  "notice": "Every form, gloss and lexeme here is invented for testing. Do not cite it as data about any real language or community.",
+  "grammar": {
+    "maxAffixes": 2,
+    "allowPrefixStack": false,
+    "allowInfix": false,
+    "allowGap": false,
+    "ambiguityMargin": 0.25,
+    "requiredFeatures": [],
+    "headFinalTypes": ["stem", "suffix", "clitic"]
+  },
+  "lexemes": [
+    {
+      "id": "kav",
+      "morph": "kav",
+      "type": "stem",
+      "gloss": "person",
+      "weight": 3.0,
+      "priority": 10,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "lum",
+      "morph": "lum",
+      "type": "stem",
+      "gloss": "house",
+      "weight": 3.0,
+      "priority": 10,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "tar",
+      "morph": "tar",
+      "type": "stem",
+      "gloss": "water",
+      "weight": 3.0,
+      "priority": 10,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "nesh",
+      "morph": "nesh",
+      "type": "stem",
+      "gloss": "child",
+      "weight": 3.0,
+      "priority": 10,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "sak",
+      "morph": "sak",
+      "type": "stem",
+      "gloss": "see",
+      "weight": 3.0,
+      "priority": 10,
+      "features": { "kind": "verb" }
+    },
+    {
+      "id": "sakm",
+      "morph": "sakm",
+      "type": "stem",
+      "gloss": "ritual",
+      "weight": 4.0,
+      "priority": 5,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "neshm",
+      "morph": "neshm",
+      "type": "stem",
+      "gloss": "school",
+      "weight": 3.9,
+      "priority": 5,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "tarka",
+      "morph": "tarka",
+      "type": "stem",
+      "gloss": "road",
+      "weight": 2.95,
+      "priority": 4,
+      "features": { "kind": "noun" }
+    },
+    {
+      "id": "suf-pl",
+      "morph": "m",
+      "type": "suffix",
+      "gloss": "PL",
+      "weight": 1.0,
+      "priority": 8,
+      "features": { "number": "pl" }
+    },
+    {
+      "id": "suf-dat",
+      "morph": "ka",
+      "type": "suffix",
+      "gloss": "DAT",
+      "weight": 0.9,
+      "priority": 8,
+      "features": { "case": "dat" }
+    },
+    {
+      "id": "suf-gen",
+      "morph": "s",
+      "type": "suffix",
+      "gloss": "GEN",
+      "weight": 0.8,
+      "priority": 8,
+      "features": { "case": "gen" }
+    },
+    {
+      "id": "suf-pst",
+      "morph": "ta",
+      "type": "suffix",
+      "gloss": "PST",
+      "weight": 0.9,
+      "priority": 8,
+      "features": { "tense": "pst" }
+    },
+    {
+      "id": "suf-erg",
+      "morph": "tar",
+      "type": "suffix",
+      "gloss": "ERG",
+      "weight": 0.85,
+      "priority": 6,
+      "features": { "case": "erg" }
+    },
+    {
+      "id": "pre-neg",
+      "morph": "na",
+      "type": "prefix",
+      "gloss": "NEG",
+      "weight": 0.7,
+      "priority": 8,
+      "features": { "polarity": "neg" }
+    },
+    {
+      "id": "pre-pfv",
+      "morph": "pra",
+      "type": "prefix",
+      "gloss": "PFV",
+      "weight": 0.7,
+      "priority": 8,
+      "features": { "aspect": "pfv" }
+    },
+    {
+      "id": "cl-also",
+      "morph": "ke",
+      "type": "clitic",
+      "gloss": "ALSO",
+      "weight": 0.3,
+      "priority": 7,
+      "features": { "discourse": "also" }
+    }
+  ],
+  "tokens": [
+    { "id": "t01", "form": "kav", "gloss": "person", "provenance": "elicitation-01" },
+    { "id": "t02", "form": "kavm", "gloss": "people", "provenance": "elicitation-01" },
+    { "id": "t03", "form": "nakav", "gloss": "not a person", "provenance": "elicitation-02" },
+    { "id": "t04", "form": "prakavm", "gloss": "saw the people", "provenance": "elicitation-02" },
+    { "id": "t05", "form": "lumta", "gloss": "was a house", "provenance": "elicitation-03" },
+    { "id": "t06", "form": "lumkake", "gloss": "to the house too", "provenance": "elicitation-03" },
+    { "id": "t07", "form": "tarka", "gloss": "road", "provenance": "elicitation-04" },
+    { "id": "t08", "form": "tarkas", "gloss": "of the road", "provenance": "elicitation-04" },
+    { "id": "t09", "form": "sakm", "gloss": "ritual", "provenance": "elicitation-05" },
+    { "id": "t10", "form": "sakta", "gloss": "saw", "provenance": "elicitation-05" },
+    { "id": "t11", "form": "nesh", "gloss": "child", "provenance": "elicitation-06" },
+    { "id": "t12", "form": "neshm", "gloss": "school", "provenance": "elicitation-06" },
+    { "id": "t13", "form": "tar", "gloss": "water", "provenance": "elicitation-07" },
+    { "id": "t14", "form": "natar", "gloss": "without water", "provenance": "elicitation-07" },
+    { "id": "t15", "form": "lumkatar", "gloss": "house, water nearby", "provenance": "elicitation-08" },
+    { "id": "t16", "form": "xkavri", "gloss": "unattested form", "provenance": "elicitation-08" },
+    { "id": "t17", "form": "praneshm", "gloss": "saw the school", "provenance": "elicitation-09" },
+    { "id": "t18", "form": "ke", "gloss": "also", "provenance": "elicitation-09" },
+    {
+      "id": "t19",
+      "form": "pranakav",
+      "gloss": "double prefix (rejected by grammar)",
+      "provenance": "elicitation-10"
+    },
+    { "id": "t20", "form": "sakmta", "gloss": "ritual, past", "provenance": "elicitation-10" },
+    { "id": "t21", "form": "pralum", "gloss": "completed house", "provenance": "elicitation-11" },
+    { "id": "t22", "form": "lumtaka", "gloss": "house, past, to", "provenance": "elicitation-11" },
+    { "id": "t23", "form": "neshka", "gloss": "to the child", "provenance": "elicitation-12" }
+  ],
+  "reviewers": [
+    {
+      "id": "r-anne",
+      "skills": ["morphology", "phonology"],
+      "capacityMinutesPerDay": 120,
+      "availableDays": ["2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06"]
+    },
+    {
+      "id": "r-bo",
+      "skills": ["morphology"],
+      "capacityMinutesPerDay": 90,
+      "availableDays": ["2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05"]
+    },
+    {
+      "id": "r-cato",
+      "skills": ["phonology"],
+      "capacityMinutesPerDay": 60,
+      "availableDays": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06"]
+    }
+  ],
+  "capacity": {
+    "2026-03-02": 240,
+    "2026-03-03": 240,
+    "2026-03-04": 240,
+    "2026-03-05": 240,
+    "2026-03-06": 180
+  },
+  "dayStartMinute": 540,
+  "dayEndMinute": 1020
+}

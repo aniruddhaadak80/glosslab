@@ -1,0 +1,11 @@
+{
+  "name": "kavrin-demo-lexicon",
+  "version": "0.1.0",
+  "description": "Lexicon source for the constructed Kavrin demo language, with the morphotactics it declares.",
+  "enabled": true,
+  "priority": 70,
+  "capabilities": ["lexicon.kavrin", "grammar.kavrin"],
+  "engines": {
+    "@glosslab": "0.1.0"
+  }
+}

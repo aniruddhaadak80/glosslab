@@ -1,0 +1,34 @@
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+.turbo/
+*.tsbuildinfo
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+.env
+.env.local
+.env.*.local
+!.env.example
+
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.tmp/
+
+# Derived state. The corpus, the artifact and the demo lexicon ARE committed; everything below
+# is rebuilt from them by "glosslab project" or "glosslab export".
+.data/
+corpus/demo/export/
