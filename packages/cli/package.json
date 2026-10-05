@@ -32,6 +32,6 @@
     "@glosslab/mcp": "0.1.0",
     "@glosslab/plugins": "0.1.0",
     "@glosslab/skills": "0.1.0",
-    "commander": "^14.0.2"
+    "commander": "^15.0.0"
   }
 }
