@@ -6,7 +6,7 @@
 morpheme lexicon, then schedule the disputed nodes into a proven-feasible review plan.
 
 [CI](https://github.com/aniruddhaadak80/glosslab/actions/workflows/ci.yml) ·
-[Web app](https://glosslab.vercel.app) ·
+[Live app](https://glosslab-morphology.vercel.app) ·
 [License](https://github.com/aniruddhaadak80/glosslab/blob/main/LICENSE) ·
 [Issues](https://github.com/aniruddhaadak80/glosslab/issues)
 

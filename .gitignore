@@ -32,3 +32,6 @@ Thumbs.db
 # is rebuilt from them by "glosslab project" or "glosslab export".
 .data/
 corpus/demo/export/
+
+# Local deploy links. Machine-specific, and not part of the product.
+.vercel/
